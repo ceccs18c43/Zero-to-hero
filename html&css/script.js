@@ -1,5 +1,4 @@
  const no=10
-
  function abc(){
   const c=10
   console.log(c)
@@ -31,14 +30,14 @@ var z
 console.log(typeof z)
 object
 var z={}
-console.log(typeof z)
+console.log(typeof z)    // object
 array
 var z=[]
-console.log(typeof z)
+console.log(typeof z)  // object
  null
  var x=10
 x=null
- console.log(typeof x)
+ console.log(typeof x)    // object
  symbol
  var x=Symbol(10)
 console.log(typeof x)
