@@ -1,61 +1,61 @@
-// const no=10
+ const no=10
 
-// function abc(){
-//     const c=10
-//     console.log(c)
-//     console.log(window.no)
+ function abc(){
+  const c=10
+  console.log(c)
+  console.log(window.no)
     
-// }
+ }
 
-// let c =20
-// abc()
-// if(2==2){
-//     const z=12
+let c =20
+ abc()
+if(2==2){
+    const z=12
 
-// } 
-//Datatype
-// //Number
-// var x=10
-// console.log(typeof x)
-// //BigInt
-// var y=10n
-// console.log(typeof y)
-// //string
-// var z='abc'
-// console.log(typeof z)
-// //boolean
-// var z=true
-// console.log(typeof z)
-// //undefined
-// var z
-// console.log(typeof z)
-// //object
-// var z={}
-// console.log(typeof z)
-// //array
-// var z=[]
-// console.log(typeof z)
-// // null
-// var x=10
-// x=null
-// console.log(typeof x)
-// // symbol
-// var x=Symbol(10)
-// console.log(typeof x)
+} 
+Datatype
+Number
+ var x=10
+console.log(typeof x)
+BigInt
+var y=10n
+ console.log(typeof y)
+string
+var z='abc'
+console.log(typeof z)
+boolean
+ var z=true
+console.log(typeof z)
+undefined
+var z
+console.log(typeof z)
+object
+var z={}
+console.log(typeof z)
+array
+var z=[]
+console.log(typeof z)
+ null
+ var x=10
+x=null
+ console.log(typeof x)
+ symbol
+ var x=Symbol(10)
+console.log(typeof x)
 
-// null vs undefined
-//Normal comparison
-// console.log('3'==3)
-// console.log("3"=='3')
-// // strict comparison
-// console.log("3"===3)
+null vs undefined
+Normal comparison
+ console.log('3'==3)
+console.log("3"=='3')
+ strict comparison
+console.log("3"===3)
 
-// var x
-// var y=null
-// console.log(x==y)
-// console.log(x===y)
+ var x
+ var y=null
+ console.log(x==y)
+console.log(x===y)
 
-// var x=[1,2,3]
+var x=[1,2,3]
 // x.push(4)
 // console.log(x)
 // var obj={"name":"Nivea" ,"age":23,"full name":"Nivea Gigen"}
