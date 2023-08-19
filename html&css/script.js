@@ -167,6 +167,12 @@ var x=[1,2,3]
 // }).catch(function(error){
 //     console.error(error)
 // })
+fetch('https://github.com/ceccs18c43/Zero-to-hero').then(function(result){
+  //console.log(result)
+  return result.json() 
+}).then(function(response){
+   console.log(response)
+})
 
 // // import minus,{pi,add} from './utils.js'
 // // console.log(pi)
