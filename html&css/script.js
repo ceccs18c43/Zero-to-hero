@@ -173,16 +173,17 @@ fetch('https://github.com/ceccs18c43/Zero-to-hero').then(function(result){
 }).then(function(response){
    console.log(response)
 })
+//
 
-// // import minus,{pi,add} from './utils.js'
-// // console.log(pi)
-// // console.log(add(2,5))
-// // console.log(minus(4,3))
-
-// import * as utils from './utils.js'
-// console.log(utils.pi)
-// console.log(utils.add(2,5))
-// console.log(utils.minus(4,3))
+ import minus,{pi,add} from './utils.js'
+ console.log(pi)
+ console.log(add(2,5))
+ console.log(minus(4,3))
+//Import all exported members
+import * as utils from './utils.js'
+console.log(utils.pi)
+console.log(utils.add(2,5))
+console.log(utils.minus(4,3))
 
 
 
