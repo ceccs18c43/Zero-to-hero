@@ -174,7 +174,7 @@ fetch('https://github.com/ceccs18c43/Zero-to-hero').then(function(result){
    console.log(response)
 })
 //
-
+// here import minus is default import
  import minus,{pi,add} from './utils.js'
  console.log(pi)
  console.log(add(2,5))
