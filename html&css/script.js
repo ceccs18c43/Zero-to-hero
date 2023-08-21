@@ -190,6 +190,7 @@ console.log(utils.minus(4,3))
 
 // let ele = document.querySelector('div')
 // console.log(ele)
+ele.style.color='green'
 
 // let elem = document.querySelectorAll('div')
 // console.log(elem)
